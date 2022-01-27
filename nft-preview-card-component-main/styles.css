@@ -30,6 +30,21 @@ body {
   top: 10px;
 }
 
+.nft-title:hover {
+  color: cyan;
+}
+
+.view-img {
+  display:none;
+  position: fixed;
+  margin-left: 135px;
+  margin-top: 120px;
+}
+
+
+.name:hover {
+  color: cyan !important;
+}
 .nft-text {
   position: relative;
   font-family: "Outfit", sans-serif;
@@ -47,9 +62,9 @@ body {
 .nft-text-2 {
   color: hsl(215, 51%, 70%);
   /* margin-top: 10px; */
-  margin-right:65px;
-  width:200px;
-  font-size:16px;
+  margin-right: 65px;
+  width: 200px;
+  font-size: 16px;
   float: right;
   font-family: "Outfit", sans-serif;
 }
@@ -78,15 +93,17 @@ td {
   color: hsl(178, 100%, 50%);
 }
 
-
 @media (max-width: 912px) {
-  .nft-component{
-    margin-left:190px;
+  .nft-component {
+    margin-left: 190px;
+  }
+  .view-img {
+    margin-left: 320px;
   }
 }
 
-@media (min-width){
-  .nft-component{
-    margin-left:300px;
+@media (min-width) {
+  .nft-component {
+    margin-left: 300px;
   }
 }
