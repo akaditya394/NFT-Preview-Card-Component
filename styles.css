@@ -17,6 +17,7 @@ body {
   border-radius: 15px;
   height: 250px;
   z-index: 999;
+	background-color: hsl(178, 100%, 50%, 0.7);
   opacity: 0;
 	transition: opacity 0.3s ease-in;
   width: 280px;
